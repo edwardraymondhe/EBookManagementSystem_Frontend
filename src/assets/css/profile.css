@@ -1,0 +1,116 @@
+.profile_wrapper {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    grid-column-gap: 5%;
+}
+
+.profile_wrapper .profile {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-row: 1 / span 1;
+    grid-template-columns: 50% 50%;
+    border-radius: 5px;
+}
+
+.profile_wrapper .avatar {
+    display: flex;
+    grid-column: 1 / span 1;
+    margin: auto;
+    object-fit: cover;
+    height: 75%;
+    width: 75%;
+    border-radius: 5px;
+}
+
+.profile_wrapper .info {
+    display: grid;
+    grid-column: 2 / span 1;
+    grid-template-rows: 40% 60%;
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    line-height: 3em;
+    left: 0;
+    top: 0;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.profile div {
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.profile_wrapper .uneditable{
+    margin: auto 0;
+}
+
+.profile_wrapper .editable{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 40%;
+}
+
+.profile_wrapper input[type = text]{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 0.8vw;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    background: none;
+    user-focus: none;
+
+    font-family: 'Montserrat', serif;
+
+    text-align: center;
+}
+
+
+.profile_wrapper input[type = text]:focus{
+    outline: none;
+    text-align: left;
+}
+
+.profile_wrapper input::placeholder{
+    color: grey;
+    text-align: left;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.75vw;
+}
+
+.profile_wrapper .option {
+    display: grid;
+    grid-row: 2 / span 1;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+}
+
+
+.profile_wrapper button {
+    margin: auto;
+    padding: 2% 3% 2% 3%;
+    width: auto;
+    border-radius: 5px;
+    background: none;
+    font-size: 1vw;
+    font-family: 'Montserrat', serif;
+    outline: none;
+    border: none;
+
+    transition: background-color 400ms;
+}

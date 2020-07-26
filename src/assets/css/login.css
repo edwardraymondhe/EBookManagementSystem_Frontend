@@ -1,0 +1,22 @@
+/*.login_wrapper{*/
+/*    grid-template-rows: 20% 30% auto auto auto;*/
+/*}*/
+
+/*.login_wrapper .cookie {*/
+/*    display: grid;*/
+/*    grid-template-columns: auto auto;*/
+/*}*/
+
+/*.login_wrapper .forgotPwd {*/
+/*    grid-column: 1 / span 1;*/
+/*    margin-right: auto;*/
+/*    width: 100%;*/
+/*    text-align: left;*/
+/*}*/
+
+/*.login_wrapper .remember {*/
+/*    grid-column: 2 / span 1;*/
+/*    margin-left: auto;*/
+/*    width: 100%;*/
+/*    text-align: right;*/
+/*}*/

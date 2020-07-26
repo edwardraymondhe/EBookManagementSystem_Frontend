@@ -1,0 +1,57 @@
+.cart_wrapper {
+    position: relative;
+    display: grid;
+    grid-gap: 5vh;
+    padding: 5vh;
+    height: auto;
+}
+
+.warn{
+    padding-top: 5vw;
+    margin: auto;
+    font-size: 1.35vw;
+    text-align: center;
+}
+
+.cart_wrapper .calc{
+    position: fixed;
+    width: 55%;
+    height: 10%;
+    right: 22.5%;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    border-radius: 15px 15px 0 0;
+    font-size: 1.2vw;
+    z-index: 10;
+}
+
+input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    left: 25px;
+    position: absolute;
+}
+
+.cart_wrapper .calc span{
+    margin: auto auto auto 5vh;
+}
+
+
+.calc button {
+    width: 80%;
+    height: 80%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background: none;
+    font-size: 1.2vw;
+    font-family: 'Montserrat', serif;
+    color: black;
+    margin: auto 5vh auto auto;
+    transition: background-color 500ms;
+    outline: none;
+}
+
+.cart_wrapper .calc button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}

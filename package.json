@@ -1,0 +1,72 @@
+{
+  "name": "proj_vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "vue-cli-service serve --open"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-vue-dropdowns": "^18.1.45",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.8.0",
+    "chart.js": "^2.9.3",
+    "core-js": "^3.6.4",
+    "mdbvue": "6.6.0",
+    "qs": "^6.9.3",
+    "store": "^2.0.12",
+    "v-calendar": "^1.0.0-beta.23",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-bootstrap-typeahead": "^0.2.6",
+    "vue-chartjs": "^3.5.0",
+    "vue-instant": "^1.0.4",
+    "vue-js-modal": "^2.0.0-rc.3",
+    "vue-js-toggle-button": "^1.3.3",
+    "vue-material-checkbox": "^2.2.0",
+    "vue-router": "^3.1.5",
+    "vue-simple-suggest": "^1.10.1",
+    "vuejs-datepicker": "^1.6.2",
+    "vuex": "^3.3.0",
+    "vxe-table": "^2.8.33",
+    "xe-utils": "^2.4.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.0",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "^4.2.3",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-mdb": "~2.1.0",
+    "vue-cli-plugin-vuetify": "~2.0.5",
+    "vue-easytable": "^1.7.2",
+    "vue-template-compiler": "^2.6.11",
+    "vue2-slideout-panel": "^2.12.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

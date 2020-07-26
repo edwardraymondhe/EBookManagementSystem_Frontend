@@ -1,0 +1,109 @@
+.rememberUser,
+.forgotPassword,
+.login,
+.register, a {
+    padding: 5%;
+    font-family: 'Montserrat', serif;
+    text-decoration: none;
+    color: #282c34;
+}
+
+.login_wrapper,
+.register_wrapper{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    margin: 15% 40% 15% 5%;
+    padding: 5%;
+    grid-column: 2 / span 1;
+    display: grid;
+    grid-template-rows: 15% 50% auto;
+    text-align: center;
+}
+
+.login_wrapper .info,
+.register_wrapper .info{
+    grid-row: 2 / span 1;
+}
+
+.login_wrapper input[type = text],
+.register_wrapper input[type = text],
+.login_wrapper input[type = password],
+.register_wrapper input[type = password],
+.register_wrapper input[type = email]{
+    display: flex;
+    margin: 15px auto 0 auto;
+    /*margin-top: 5px;*/
+    width: 70%;
+    height: 2vw;
+    font-size: 0.8vw;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    background: none;
+    user-focus: none;
+
+    font-family: 'Montserrat', serif;
+
+    text-align: center;
+
+    transition: width 250ms;
+}
+
+.login_wrapper input[type = text]:hover,
+.register_wrapper input[type = text]:hover,
+.login_wrapper input[type = password]:hover,
+.register_wrapper input[type = password]:hover,
+.register_wrapper input[type = email]:hover{
+    width: 85%;
+}
+
+.login_wrapper input[type = text]:focus,
+.register_wrapper input[type = text]:focus,
+.login_wrapper input[type = password]:focus,
+.register_wrapper input[type = password]:focus,
+.register_wrapper input[type = email]:focus{
+    outline: none;
+    text-align: center;
+}
+
+.login_wrapper input::placeholder,
+.register_wrapper input::placeholder {
+    color: grey;
+    text-align: center;
+}
+
+.login_wrapper .cookie,
+.register_wrapper .cookie,
+.login_wrapper .login,
+.register_wrapper .login,
+.login_wrapper .register,
+.register_wrapper .register {
+    font-size: 0.5vw;
+    font-family: 'Montserrat', serif;
+    text-decoration: none;
+    color: #282c34;
+}
+
+.login_wrapper button,
+.register_wrapper button {
+    margin: auto;
+    padding: 2%;
+    width: 50%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background: none;
+    font-size: 1.2vw;
+    font-family: 'Montserrat', serif;
+    color: black;
+
+    transition: background-color 500ms;
+}
+
+.login_wrapper button:hover,
+.register_wrapper button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login_wrapper link{
+    padding: 0 0 0 0;
+}

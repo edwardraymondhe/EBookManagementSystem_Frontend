@@ -1,0 +1,47 @@
+.order_wrapper{
+    padding: 5vh;
+}
+
+.order_toolBar{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-gap: 20px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.order_toolBar .toolBar_date{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 100%;
+}
+
+.order_toolBar .toolBar_search{
+    outline: none; text-align: left; border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.order_toolBar button{
+    padding: 3px 10px 3px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 2px 2px 2px 2px;
+    outline:none;
+    font-family: 'Montserrat', serif;
+}
+
+.orderView_wrapper{
+    display: grid;
+
+    grid-gap: 5vh;
+    padding: 5vh;
+    height: auto;
+}
+
+.cart_wrapper .warn{
+    padding-top: 5vw;
+    margin: auto;
+    font-size: 1.35vw;
+}

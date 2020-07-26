@@ -1,0 +1,14 @@
+.content_wrapper {
+    display: grid;
+    grid-row: 2 / span 1;
+    grid-template-rows: 5vw auto;
+    grid-template-columns: 22.5% 55% 22.5%;
+    width: auto;
+    height: auto;
+}
+
+.content {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    border-radius: 5px;
+}

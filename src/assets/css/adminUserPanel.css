@@ -1,0 +1,13 @@
+.userTable{
+    display: grid;
+    margin-top: 20px;
+}
+
+
+.userTable .userTable_toolBar{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 20px;
+}

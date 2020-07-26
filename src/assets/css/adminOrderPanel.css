@@ -1,0 +1,53 @@
+.orderTable{
+    display: grid;
+    margin-top: 20px;
+}
+
+
+.orderTable_toolBar{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-gap: 20px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.orderTable .toolBar_date{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 100%;
+}
+
+.orderTable .toolBar_search{
+    outline: none; text-align: left; border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.orderTable .toolBar_chart{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.orderTable .orderTable_table{
+    grid-row: 2 / span 1;
+    margin-top: 10px;
+}
+
+.orderTable button{
+    padding: 3px 10px 3px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 2px 2px 2px 2px;
+    outline:none;
+    font-family: 'Montserrat', serif;
+}
+
+.orderTable .toolBar_chart .book{
+    border-radius: 2px 0 0 2px;
+}
+
+.orderTable .toolBar_chart .user{
+    border-radius: 0 2px 2px 0;
+}

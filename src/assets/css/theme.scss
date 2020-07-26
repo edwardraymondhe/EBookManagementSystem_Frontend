@@ -1,0 +1,108 @@
+html {
+  --bgImage: url("../img/main_background_light.jpg");
+  --light: rgba(252, 252, 252, 0.2);
+  --medium: rgba(252, 252, 252, 0.5);
+  --mediumPure: rgb(224, 227, 233, 0.9);
+  --heavy: rgba(252, 252, 252, 0.8);
+  --pure: rgba(252, 252, 252);
+  --text: rgba(27, 28, 30);
+  --bgColor: rgb(252, 252, 252);
+  --textHolder: rgba(27, 28, 30, 0.8);
+
+
+  --blur: blur(2px);
+  --loginText: rgba(27, 28, 30, 0.9);
+  --heavyBorder: 1px solid grey;
+  --lightBorder: 1px solid lightgrey;
+  background-color: var(--bgColor);
+}
+
+.loginBackground {
+  background-image: var(--bgImage);
+}
+
+.login_wrapper h1 {
+  background: var(--medium);
+  color: var(--loginText);
+}
+
+.book_wrapper{
+  background-color: var(--pure);
+}
+
+.login_wrapper .info, .bookDetail_wrapper .info {
+  background-color: var(--medium);
+}
+
+.login_wrapper button, .bookDetail_wrapper button {
+  border: var(--heavyBorder);
+  color: var(--text);
+}
+
+.login_wrapper button:hover, .bookDetail_wrapper button:hover,  .profile_wrapper button:hover {
+  background-color: var(--medium);
+}
+
+
+.cartItem_wrapper, .orderItem_wrapper{
+  background-color: var(--medium);
+}
+
+.cartItem_wrapper .control{
+  background: var(--heavyBorder);
+  border-bottom: var(--textHolder) 1px solid;
+}
+
+.cartItem_wrapper .cover{
+  background-color: var(--pure);
+}
+
+.cartItem_wrapper button:hover {
+  background-color: var(--pure);
+}
+
+.cartItem_wrapper .del{
+  text-decoration-color: var(--textHolder);
+}
+
+.cart_wrapper .calc{
+  background-color: var(--pure);
+}
+
+.content {
+  background-color: var(--medium);
+}
+
+.search {
+  background-color: var(--pure);
+}
+
+.submit {
+  background-color: var(--pure);
+}
+
+.input {
+  color: var(--pure);
+}
+
+.input::placeholder {
+  color: var(--textHolder);
+}
+
+.upperNav_user_wrapper button, .upperNav_admin_wrapper button {
+  color: var(--text);
+}
+
+.upperNav_user_wrapper button:hover, .upperNav_admin_wrapper button:hover{
+  background-color: var(--medium);
+}
+
+.upperNav_user_wrapper a ,.upperNav_admin_wrapper a {
+  color: var(--text);
+}
+
+
+.backgroundImage {
+  background-image: var(--bgImage);
+  -webkit-filter: var(--blur);
+}
